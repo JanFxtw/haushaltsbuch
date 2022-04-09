@@ -4,3 +4,8 @@ body {
     overflow: hidden;
     height: 100vh;
 }
+
+@keyframes slide {
+    from {height: 0;}
+    to {height: 300px;}
+  }

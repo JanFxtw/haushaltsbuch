@@ -30,7 +30,7 @@
 
 const textBreakpoint = 650;
 const ellipseLimits = {
-    min: 450,
+    min: 350,
     max: 800
 };
 

@@ -11,8 +11,8 @@
             <router-view />
         </v-main>
 
-        <v-footer app>
-            <edit-expenses-toolbar />
+        <v-footer :app="showFooterToolbar">
+            <edit-expenses-toolbar v-if="showFooterToolbar" />
             <navigation-bar />
         </v-footer>
     </v-app>
@@ -27,6 +27,13 @@ export default {
     components: {
         NavigationBar,
         EditExpensesToolbar
+    },
+    computed:
+    {
+        showFooterToolbar()
+        {
+            return this.$route.name === 'Dashboard';
+        }
     }
 };
 </script>

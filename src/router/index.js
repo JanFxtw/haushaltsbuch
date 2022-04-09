@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
-        name: '/',
+        name: 'Dashboard',
         component: () => import('@/views/Dashboard.vue')
     },
     {
@@ -20,9 +20,9 @@ const routes = [
         component: () => import('@/views/Accounts.vue')
     },
     {
-        path: '/statements',
-        name: 'Statements',
-        component: () => import('@/views/Statements.vue')
+        path: '/categories',
+        name: 'Categories',
+        component: () => import('@/views/Categories.vue')
     }
 ];
 

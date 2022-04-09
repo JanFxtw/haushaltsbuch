@@ -31,14 +31,14 @@ export default {
                     route: '/'
                 },
                 {
-                    text: 'Konten',
-                    mdi: 'mdi-bookshelf',
-                    route: 'accounts'
+                    text: 'Kategorien',
+                    mdi: 'mdi-file-document-multiple',
+                    route: 'categories'
                 },
                 {
-                    text: 'Auszüge',
-                    mdi: 'mdi-cash-multiple',
-                    route: 'statements'
+                    text: 'Konten',
+                    mdi: 'mdi-piggy-bank',
+                    route: 'accounts'
                 },
                 {
                     text: 'Einstellungen',
